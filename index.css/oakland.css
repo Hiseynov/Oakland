@@ -16,33 +16,28 @@ button:hover {
 }
 
 .header {
-  width: 90%;
-  margin: 0 auto;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: white;
+  z-index: 99;
 }
 .header__container {
   display: flex;
   justify-content: space-between;
-  width: 100%;
+  width: 90%;
   margin: 0 auto;
-  padding-top: 2%;
-  z-index: 99;
-  position: fixed;
-  top: 0;
-  background: white;
-  padding-bottom: 1%;
+  padding-top: 50px;
+  padding-bottom: 20px;
 }
 .header__container--logo--tittle {
   color: #000;
   font-size: 30px;
 }
-.header__container--menu {
-  position: absolute;
-  left: 80%;
-}
 .header__container--categories {
   display: flex;
-  -moz-column-gap: 25%;
-       column-gap: 25%;
+  -moz-column-gap: 20px;
+       column-gap: 20px;
 }
 .header__container--category a {
   font-size: 18px;
@@ -82,8 +77,8 @@ button:hover {
   padding-top: 3%;
 }
 #scroal__top .bring__container--button button {
-  width: 12vw;
-  height: 9vh;
+  width: 180px;
+  height: 40px;
   background-color: #111111;
   color: white;
   font-size: 18px;
@@ -116,7 +111,7 @@ button:hover {
   font-size: 18px;
 }
 #scroal__top .About__iframe {
-  width: 60%;
+  width: 65%;
   margin: 0 auto;
   padding-top: 4%;
 }
@@ -184,8 +179,8 @@ button:hover {
   margin-bottom: 10%;
 }
 #scroal__center .projects__button--tittle {
-  width: 15vw;
-  height: 10vh;
+  width: 180px;
+  height: 40px;
   background-color: black;
   color: white;
   font-size: 100%;
@@ -227,9 +222,9 @@ button:hover {
   padding-bottom: 10%;
 }
 .footer__container--button button {
-  height: 10vh;
-  width: 13vw;
-  background-color: #E6382A;
+  width: 180px;
+  height: 40px;
+  background-color: #e6382a;
   color: white;
   font-size: 100%;
 }
@@ -275,12 +270,15 @@ button:hover {
     padding-top: 15% !important;
   }
   .bring__container--button button {
-    width: 35vw !important;
-    height: 7vh !important;
-    font-size: 5vw !important;
+    width: 170px !important;
+    font-size: 2.7vw !important;
   }
   .About__logo h3 {
     font-size: 9vw !important;
+  }
+  .About__logo .About__iframe--tittle {
+    width: 100vw !important;
+    height: 100vh !important;
   }
   .About__word {
     font-size: 5vw !important;
@@ -304,14 +302,20 @@ button:hover {
     margin: 0 auto;
     padding: 10% 0;
   }
+  .About__iframe {
+    width: 80% !important;
+  }
+  .About__iframe--tittle {
+    width: 100% !important;
+    height: 50vh !important;
+  }
   .projects__cards--categories {
     display: grid !important;
     row-gap: 1% !important;
   }
   .projects__button--tittle {
-    width: 30vw !important;
+    width: 170px !important;
     font-size: 2.7vw !important;
-    height: 8vh !important;
   }
   .button__container--tittle {
     font-size: 5vw !important;
@@ -324,9 +328,8 @@ button:hover {
     font-size: 6vw !important;
   }
   .footer__container--button button {
-    width: 30vw !important;
-    font-size: 2.8vw !important;
-    height: 7vh;
+    width: 170px !important;
+    font-size: 2.7vw !important;
   }
   .footer__container--link {
     font-size: 5vw !important;
@@ -359,12 +362,18 @@ button:hover {
     padding-top: 10% !important;
     font-size: 9vw !important;
   }
+  .About__iframe {
+    width: 80% !important;
+  }
+  .About__iframe--tittle {
+    width: 100% !important;
+    height: 50vh !important;
+  }
   .bring__container--button {
     padding-top: 15% !important;
   }
   .bring__container--button button {
-    width: 35vw !important;
-    height: 7vh !important;
+    width: 170px !important;
     font-size: 5vw !important;
   }
   .About__logo h3 {
@@ -397,9 +406,8 @@ button:hover {
     row-gap: 1% !important;
   }
   .projects__button--tittle {
-    width: 30vw !important;
+    width: 170px !important;
     font-size: 2.7vw !important;
-    height: 8vh !important;
   }
   .button__container--tittle {
     font-size: 5vw !important;
@@ -412,9 +420,8 @@ button:hover {
     font-size: 6vw !important;
   }
   .footer__container--button button {
-    width: 30vw !important;
+    width: 170px !important;
     font-size: 2.8vw !important;
-    height: 7vh;
   }
   .footer__container--link {
     font-size: 5vw !important;
